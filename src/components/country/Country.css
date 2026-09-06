@@ -8,9 +8,19 @@ padding: 10px;
 width: 200px;
 }
 .country button{
-width: 120px;
 padding: 8px;
-color: black;
-background-color: aquamarine;
+color: whitesmoke;
+background-color: blue;
 font-weight: 500;
+}
+
+.country-visted{
+background-color: lightblue;
+}
+
+.country-visted h3 h4 {
+color: bisque;
+}
+.visited-flags img{
+width: 80px;
 }
