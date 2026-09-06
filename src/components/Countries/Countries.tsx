@@ -46,12 +46,12 @@ export default function Countries({ countriesPromise }: CountriesProps) {
       <div>
         <ul>
           
-          {visitedCountries.map(country => <li>{country.name.common}</li>)}
+          {visitedCountries.map(country => <li key={country.ccn3.ccn3}>{country.name.common}</li>)}
         </ul>
         
       </div>
       <div className="visited-flags">
-        {visitedFlags.map((flag) => <img key={flag} src={flag} />)}
+        {visitedFlags.map((flag,index) => <img key={index} src={flag} />)}
       </div>
       
       <div className="countries">
